@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/modeldee/repositories/wp-integration
+    - export DEPLOYPATH=/home2/modeldee/public_html/wp-content/wp-integration
     - /bin/cp -R ./ $DEPLOYPATH
